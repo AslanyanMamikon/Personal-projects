@@ -127,10 +127,8 @@ grep pattern "*.txt"
 ├── main.cpp              # Entry point, argument parsing and orchestration
 ├── Grep.h                # Grep class declaration
 ├── Grep.cpp              # Grep class implementation
-├── Helper_functions.h    # Argument parsing and usage helpers
-├── test.txt              # Sample input file
-├── test_2.txt            # Sample input file
-└── patternFile.txt       # Sample pattern file for use with -f
+└── Helper_functions.h    # Argument parsing and usage helpers
+
 ```
 
 ## How It Works
