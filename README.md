@@ -61,7 +61,7 @@ g++ -std=c++17 -o alloc_demo "Custom Allocator/Allocator.cpp" && ./alloc_demo
 
 ---
 
-### [Pool Allocator](Custom-regex/README.md)
+### [Pool Allocator](Custom%20regex/README.md)
 
 A fixed-size memory pool that pre-allocates a contiguous block of memory and manages it via a singly-linked free list, enabling O(1) allocation and deallocation with zero fragmentation.
 
