@@ -61,7 +61,7 @@ g++ -std=c++17 -o alloc_demo "Custom Allocator/Allocator.cpp" && ./alloc_demo
 
 ---
 
-### [Pool Allocator](Custom%20regex/README.md)
+### Pool Allocator
 
 A fixed-size memory pool that pre-allocates a contiguous block of memory and manages it via a singly-linked free list, enabling O(1) allocation and deallocation with zero fragmentation.
 
@@ -100,7 +100,7 @@ g++ -std=c++17 -o pool_demo "Pool Allocator/main.cpp" && ./pool_demo
 
 ---
 
-## Regex Engine
+## [Regex Engine](Custom%20regex/README.md)
 
 A custom regular expression engine written in C++ that compiles patterns directly into a Deterministic Finite Automaton (DFA) using the classic followpos algorithm from the Dragon Book (Aho, Lam, Sethi, Ullman).
 
