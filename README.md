@@ -31,7 +31,7 @@ Personal Projects/
 
 ---
 
-## Allocators
+## [Allocators](Allocators/README.md)
 
 ### Custom Allocator
 
@@ -61,7 +61,7 @@ g++ -std=c++17 -o alloc_demo "Custom Allocator/Allocator.cpp" && ./alloc_demo
 
 ---
 
-### Pool Allocator
+### [Pool Allocator](Custom-regex/README.md)
 
 A fixed-size memory pool that pre-allocates a contiguous block of memory and manages it via a singly-linked free list, enabling O(1) allocation and deallocation with zero fragmentation.
 
@@ -161,7 +161,7 @@ g++ -std=c++17 -o regex_test ASTNode.cpp DFAState.cpp RegexStream.cpp Regex.cpp 
 
 ---
 
-## Grep
+## [Grep](Grep/README.md)
 
 A command-line search tool implemented in C++ that replicates core `grep` functionality. Searches for a pattern in one or more files and prints matching lines, with support for extended regular expressions, wildcard file expansion, and ANSI color highlighting.
 
